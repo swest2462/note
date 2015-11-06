@@ -1,2 +1,33 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+#banner
+  .banner_content
+    %h1 Note
+    %p Online Notebook.
+    %button= link_to "Registration", new_user_registration_path
+
+#testimonial
+  .wrapper
+    %p.quote "The best notebook application"
+    %p.name - Aleksandr Vest
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Notes
+        %p Viral Echo Park Intelligentsia tattooed, craft beer organic authentic polaroid tousled mlkshk church-key. Fanny pack Banksy vegan  authentic Helvetica.
+
+      .callout
+        %h2 Notes
+        %p Viral Echo Park Intelligentsia tattooed, craft beer organic authentic polaroid tousled mlkshk church-key. Fanny pack Banksy vegan  authentic Helvetica.
+
+      .callout
+        %h2 Notes
+        %p Viral Echo Park Intelligentsia tattooed, craft beer organic authentic polaroid tousled mlkshk church-key. Fanny pack Banksy vegan  authentic Helvetica.
+#bottom_cta
+  .wrapper
+    %h2 For Free!
+    %p Please sign up... If you don’t. I will find you!
+    %button= link_to "Register me", new_user_registration_path
+
+%footer
+  %p &copy; aleksandr vest
